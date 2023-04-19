@@ -148,13 +148,15 @@ section .fristsec .fristsec_img img{
     left: 10px;
 }
 :root{
-	--green:#27ae60;
+	--blue:#089da1;
 	--dark-color:#219150;
 	--black:#444;
 	--light-color:#666;
 	--border:.1rem solid rgba(0,0,0,.1);
+	--outline:.1rem solid rgba(0,0,0,.1);
 	--border-hover:.1rem solid var(--black);
-	--box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+	--box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+
 }
 /*starts the slider in home*/
 section .fristsec .fristsec_img img {
@@ -417,3 +419,119 @@ section .fristsec .fristsec_img img.active {
     color: var(--black);
     padding-top: 1rem;
 }
+
+/*arrivals*/
+.arrivals_books{
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0;
+}
+
+.arrivals_books h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-size: 45px;
+}
+
+.arrivals_books .arrivals_book_box{
+  width: 95%;
+  height: 60vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.arrivals_books .arrivals_book_box .arrivals_book_card{
+  width: 250px;
+  height: 420px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #919191;
+  margin: auto 20px;
+}
+
+.arrivals_books .arrivals_book_box .arrivals_book_card:hover{
+  box-shadow: 0 0 5px #089da1;
+}
+
+.arrivals_books .arrivals_book_box .arrivals_book_card .arrivals_book_img img{
+  width: 150px;
+}
+
+.arrivals_books .arrivals_book_box .arrivals_book_card .arrivals_book_tag h2{
+  margin: 12px;
+}
+
+.arrivals_books .arrivals_book_box .arrivals_book_card .arrivals_book_tag .writer{
+  color: #919191;
+}
+
+.arrivals_books .arrivals_book_box .arrivals_book_card .arrivals_book_tag .categories{
+  color: #089da1;
+  margin-top: 8px;
+}
+
+
+.arrivals_books .arrivals_book_box .arrivals_book_card .arrivals_book_tag .f_btn{
+  padding: -10px 1px;
+  border: 3px solid #089da1;
+  text-decoration: none;
+  color: #000;
+
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar-thumb{
+  background: #089da1;
+  border-radius: 10px;
+}
+
+
+
+.deal{
+  background: #f3f3f3;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /*gap: 1.5rem;*/
+
+}
+
+.deal .content{
+  flex:1 1 45rem;
+}
+
+.deal .img-deal{
+  flex:1 1 50rem;
+}
+
+.deal .img-deal img{
+  width: 24.5%;
+  
+}
+
+.deal .content h3{
+  color: #089da1;
+  font-size: 2.5rem;
+  padding-bottom: .5rem;
+  
+}
+
+.deal .content h1{
+  color: black;
+  font-size: 4rem;
+}
+
+
