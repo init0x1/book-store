@@ -39,3 +39,11 @@ function showSlides() {
     loginForm.classList.remove('active');
 }
 
+/*features 
+const addToCartBtn = document.querySelector('.add-to-cart-btn');
+const cartIcon = document.querySelector('.fa-cart-shopping');
+
+addToCartBtn.addEventListener('click', () => {
+  // Add the cart icon element to the cart
+  document.querySelector('.cart').appendChild(cartIcon);
+});*/
