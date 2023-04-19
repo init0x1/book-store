@@ -437,7 +437,11 @@ section .fristsec .fristsec_img img.active {
 
 .arrivals_books .arrivals_book_box{
   width: 95%;
+<<<<<<< HEAD
   height: 60vh;
+=======
+  height: 70vh;
+>>>>>>> 2746ae8d12c675f8813cd4e51ee24a8ada598c7f
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -497,6 +501,7 @@ section .fristsec .fristsec_img img.active {
   background: #089da1;
   border-radius: 10px;
 }
+<<<<<<< HEAD
 
 
 
@@ -535,3 +540,5 @@ section .fristsec .fristsec_img img.active {
 }
 
 
+=======
+>>>>>>> 2746ae8d12c675f8813cd4e51ee24a8ada598c7f
