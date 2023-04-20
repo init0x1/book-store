@@ -437,11 +437,11 @@ section .fristsec .fristsec_img img.active {
 
 .arrivals_books .arrivals_book_box{
   width: 95%;
-<<<<<<< HEAD
+
   height: 60vh;
-=======
+
   height: 70vh;
->>>>>>> 2746ae8d12c675f8813cd4e51ee24a8ada598c7f
+
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -501,44 +501,61 @@ section .fristsec .fristsec_img img.active {
   background: #089da1;
   border-radius: 10px;
 }
-<<<<<<< HEAD
 
 
 
-.deal{
+
+.deal {
   background: #f3f3f3;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  /*gap: 1.5rem;*/
-
 }
 
-.deal .content{
-  flex:1 1 45rem;
+.deal .content {
+  flex: 1 1 42rem;
+  padding-right: 2rem; /* Add some space between the text and image */
 }
 
-.deal .img-deal{
-  flex:1 1 50rem;
+.deal .img-deal {
+  flex: 1 1 42rem;
+  display: flex; /* Add display flex to position the image */
+  justify-content: center; /* Align the image to the right */
+
+  }
+
+.deal .img-deal img {
+  width: 40%; /* Decrease image width to fit better */
 }
 
-.deal .img-deal img{
-  width: 24.5%;
-  
-}
-
-.deal .content h3{
+.deal .content h3 {
   color: #089da1;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   padding-bottom: .5rem;
-  
 }
 
-.deal .content h1{
+.deal .content h1 {
   color: black;
   font-size: 4rem;
 }
 
+.deal .content p {
+  font-size: 1.2rem; /* Increase font size */
+  line-height: 1.5; /* Add some spacing between lines */
+  margin-top: 1.5rem; /* Add some space between the title and text */
+}
 
-=======
->>>>>>> 2746ae8d12c675f8813cd4e51ee24a8ada598c7f
+.deal .content .btn-d {
+  display: inline-block;
+  background-color: #089da1;
+  color: #fff;
+  padding: 1rem 2rem;
+  margin-top: 1.5rem; /* Add some space between text and button */
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.deal .content .btn-d:hover {
+  background-color: #008c92;
+}
